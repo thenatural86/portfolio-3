@@ -7,3 +7,21 @@
     @apply mx-auto max-w-7xl px-8;
   }
 }
+
+.footer {
+  height: 9rem;
+  background: #222;
+  text-align: center;
+  display: grid;
+  place-items: center;
+  letter-spacing: 0.5em;
+}
+.footer h4 {
+  margin-top: 0.5rem;
+  color: #fff;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+.footer h4 span {
+  color: #2caeba;
+}

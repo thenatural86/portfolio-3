@@ -1,5 +1,5 @@
-import heroImg from '../assets/hero.svg'
-import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from 'react-icons/fa'
+import heroImg from '../assets/hero-img2.jpeg'
+import { FaGithubSquare, FaLinkedin, FaMedium } from 'react-icons/fa'
 
 const Hero = () => {
   return (
@@ -20,13 +20,14 @@ const Hero = () => {
             <a href='https://www.linkedin.com/in/philip-smalls' target='_blank'>
               <FaLinkedin className='h-8 w-8 text-slate-500 hover:text-black duration-300' />
             </a>
-            <a href='#'>
-              <FaTwitterSquare className='h-8 w-8 text-slate-500 hover:text-black duration-300' />
+
+            <a href='https://medium.com/@philip.smalls86'>
+              <FaMedium className='h-8 w-8 text-slate-500 hover:text-black duration-300' />
             </a>
           </div>
         </article>
         <article className='hidden md:block'>
-          <img src={heroImg} className='h-80 lg:h-96' />
+          <img src={heroImg} className='h-80 lg:h-72 rounded-full' />
         </article>
       </div>
     </div>

@@ -8,13 +8,7 @@ const Navbar = () => {
       <div className='align-element py-4 flex flex-col sm:flex-row sm:gap-x-16 sm:item-center sm:py-8 '>
         <h2 className='text-3xl font-bold'>
           <a href='#home'>
-            <img
-              src={logo2}
-              alt='logo'
-              height='10px'
-              className='w-full h-8'
-              onClick='/home'
-            />
+            <img src={logo2} alt='logo' height='10px' className='w-full h-8' />
           </a>
         </h2>
         <div className='flex gap-x-3'>
@@ -24,7 +18,7 @@ const Navbar = () => {
               <a
                 key={id}
                 href={href}
-                className='capitalize text-lg tracking-wide hover:text-emerald-600 duration-300'
+                className='capitalize text-lg tracking-widest px-6 hover:text-emerald-600 duration-300 hover:underline'
               >
                 {text}
               </a>
