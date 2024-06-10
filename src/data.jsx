@@ -57,7 +57,7 @@ export const projects = [
     url: 'https://job-tracker-zzso.onrender.com/',
     github: 'https://github.com/thenatural86/job-tracker?tab=readme-ov-file',
     title: 'job tracker',
-    text: 'Welcome to Job Tracker, a full-stack web application built to help software engineers manage and streamline their job search. Track your job applications, discover new opportunities, and land your next dream job!',
+    text: 'Welcome to Job Tracker, a full-stack web application built with React, Node, Express and MongoDB. Creates to help software engineers manage and streamline their job search. Track your job applications, discover new opportunities, and land your next dream job!',
   },
   {
     id: nanoid(),
@@ -65,7 +65,7 @@ export const projects = [
     url: 'https://cozys-corner.netlify.app/',
     github: 'https://github.com/thenatural86/cozy-app',
     title: 'cozy corner',
-    text: 'E-commerce application that allows a user to login and browse through products that can be totaled, added to their cart and purchased using a credit card. .',
+    text: 'An E-commerce application built with React, Node and Express. Create a user, login and browse through products that can be totaled, added to their cart and purchased using stripe payment.',
   },
   {
     id: nanoid(),
@@ -73,6 +73,6 @@ export const projects = [
     url: 'https://rightshub.netlify.app/',
     github: 'https://github.com/hackforblacklivesmatter-5-1/rightshub',
     title: 'rights hub',
-    text: 'Web application built and designed at a nyc coders hackathon where users can learn about their civil rights.',
+    text: 'Web application built with react and css at a nyc coders hackathon that allows users to learn about their civil rights.',
   },
 ]
