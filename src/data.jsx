@@ -1,5 +1,7 @@
 import { nanoid } from 'nanoid'
 import { FaHtml5, FaJs, FaReact, FaNode, FaPython, FaGem } from 'react-icons/fa'
+import project1 from './assets/project-1.png'
+import project2 from './assets/project-2.png'
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -50,19 +52,19 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
-    img: 'https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'first project',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    img: project1,
+    url: 'https://job-tracker-zzso.onrender.com/',
+    github: 'https://github.com/thenatural86/job-tracker?tab=readme-ov-file',
+    title: 'job tracker',
+    text: 'Welcome to Job Tracker, a full-stack web application built to help software engineers manage and streamline their job search. Track your job applications, discover new opportunities, and land your next dream job!',
   },
   {
     id: nanoid(),
-    img: 'https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'second project',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    img: project2,
+    url: 'https://cozys-corner.netlify.app/',
+    github: 'https://github.com/thenatural86/cozy-app',
+    title: 'cozy corner',
+    text: 'E-commerce application that allows a user to login and browse through products that can be totaled, added to their cart and purchased using a credit card. .',
   },
   {
     id: nanoid(),
