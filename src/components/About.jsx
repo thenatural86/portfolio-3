@@ -8,10 +8,13 @@ const About = () => {
         <article>
           <SectionTitle text='about me' />
           <p className='text-slate-600 mt-8 leading-loose'>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint
-            maiores itaque doloribus asperiores dolorum quas voluptates
-            distinctio, porro beatae quam provident libero animi totam,
-            praesentium voluptatem corrupti dignissimos ipsum accusantium!
+            Creative-minded Software Engineer adept at crafting clean, efficient
+            code and tackling complex challenges. Proficient in a wide range of
+            technologies, with a strong focus on JavaScript/TypeScript and its
+            associated frameworks (React/Redux), as well as experience with
+            backend technologies like NodeJS, Python, and Ruby. Skilled in
+            collaborating within Agile environments to deliver high-quality
+            software solutions that meet and exceed client expectations.
           </p>
         </article>
       </div>
