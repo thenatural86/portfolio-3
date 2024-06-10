@@ -2,6 +2,7 @@ import { nanoid } from 'nanoid'
 import { FaHtml5, FaJs, FaReact, FaNode, FaPython, FaGem } from 'react-icons/fa'
 import project1 from './assets/project-1.png'
 import project2 from './assets/project-2.png'
+import project3 from './assets/project-3.png'
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -68,10 +69,10 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: 'https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'third project',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    img: project3,
+    url: 'https://rightshub.netlify.app/',
+    github: 'https://github.com/hackforblacklivesmatter-5-1/rightshub',
+    title: 'rights hub',
+    text: 'Web application built and designed at a nyc coders hackathon where users can learn about their civil rights.',
   },
 ]
