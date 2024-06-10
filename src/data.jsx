@@ -31,19 +31,19 @@ export const skills = [
     id: nanoid(),
     title: 'Node',
     icon: <FaNode className='h-16 w-16 text-emerald-500' />,
-    text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
-  },
-  {
-    id: nanoid(),
-    title: 'Python',
-    icon: <FaPython className='h-16 w-16 text-emerald-500' />,
-    text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+    text: 'Proficient in Node.js, adept at building scalable and high-performance backend services and APIs, ensuring robust and efficient server-side operations.',
   },
   {
     id: nanoid(),
     title: 'Ruby',
     icon: <FaGem className='h-16 w-16 text-emerald-500' />,
-    text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+    text: 'Expertise in Ruby, specializing in crafting elegant and maintainable applications, leveraging the power of Ruby on Rails for rapid development and deployment..',
+  },
+  {
+    id: nanoid(),
+    title: 'Python',
+    icon: <FaPython className='h-16 w-16 text-emerald-500' />,
+    text: 'Highly skilled in Python, proficient in developing versatile and efficient software solutions, with a strong emphasis on readability and maintainability of code.',
   },
 ]
 
