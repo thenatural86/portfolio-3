@@ -58,7 +58,7 @@ export const projects = [
     url: 'http://ec2-18-221-244-105.us-east-2.compute.amazonaws.com/api/docs/',
     github: 'https://github.com/thenatural86/recipe-app-api',
     title: 'recipe API',
-    text: 'Recipe API is a backend REST API using Python, Django, Docker, GitHub Actions, PostgreSQL and Test Driven Development.',
+    text: 'Recipe API is a backend REST API using Python, Django, Docker, GitHub Actions, PostgreSQL, Test Driven Development and visualized using Swagger Docs.',
   },
   {
     id: nanoid(),
