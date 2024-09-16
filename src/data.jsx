@@ -3,6 +3,7 @@ import { FaHtml5, FaJs, FaReact, FaNode, FaPython, FaGem } from 'react-icons/fa'
 import project1 from './assets/project-1.png'
 import project2 from './assets/project-2.png'
 import project3 from './assets/project-3.png'
+import project4 from './assets/project-4.png'
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -51,6 +52,14 @@ export const skills = [
 ]
 
 export const projects = [
+  {
+    id: nanoid(),
+    img: project4,
+    url: 'http://ec2-18-221-244-105.us-east-2.compute.amazonaws.com/api/docs/',
+    github: 'https://github.com/thenatural86/recipe-app-api',
+    title: 'job tracker',
+    text: 'Recipe API is a backend REST API using Python, Django, Docker, GitHub Actions, PostgreSQL and Test Driven Development.',
+  },
   {
     id: nanoid(),
     img: project1,
