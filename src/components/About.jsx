@@ -8,13 +8,17 @@ const About = () => {
         <article>
           <SectionTitle text='about me' />
           <p className='text-slate-600 mt-8 leading-loose'>
-            Creative-minded Software Engineer adept at crafting clean, efficient
-            code and tackling complex challenges. Proficient in a wide range of
-            technologies, with a strong focus on JavaScript/TypeScript and its
-            associated frameworks (React/Redux), as well as experience with
-            backend technologies like NodeJS, Python, and Ruby. Skilled in
-            collaborating within Agile environments to deliver high-quality
-            software solutions that meet and exceed client expectations.
+            Creative and results-driven Software Engineer with proven expertise
+            in crafting clean, efficient code and solving complex technical
+            problems. Proficient in JavaScript, TypeScript, Node.js, React,
+            Redux, Python, Django, Ruby on Rails, GitHub Actions, and Docker.
+            Adept at collaborating in Agile environments and utilizing
+            Test-Driven Development (TDD) to deliver scalable, high-quality
+            software solutions that consistently exceed client expectations.
+            Passionate about contributing to innovative teams and driving
+            impactful software projects, I am seeking a role where I can
+            leverage my technical skills and problem-solving abilities to build
+            cutting-edge applications while continuing to grow professionally.
           </p>
         </article>
       </div>

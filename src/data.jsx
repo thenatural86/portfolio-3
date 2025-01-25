@@ -4,6 +4,7 @@ import project1 from './assets/project-1.png'
 import project2 from './assets/project-2.png'
 import project3 from './assets/project-3.png'
 import project4 from './assets/project-4.png'
+import project5 from './assets/project-5.png'
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -52,6 +53,14 @@ export const skills = [
 ]
 
 export const projects = [
+  {
+    id: nanoid(),
+    img: project5,
+    url: 'https://lightning-gpt-omega.vercel.app/',
+    github: 'https://github.com/thenatural86/lightning-gpt',
+    title: 'Lightning GPT',
+    text: 'AI-driven web application using Next.js and the OpenAI API, with the ability to serve over 1,000 requests per second with optimized server and client components for performance and scalability.',
+  },
   {
     id: nanoid(),
     img: project4,
